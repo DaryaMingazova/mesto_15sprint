@@ -66,8 +66,9 @@
 - [Сайт](https://daryamingazova.github.io/mesto/index.html)
 - [Ссылка на репозиторий](https://github.com/DaryaMingazova/mesto_15sprint.git)
 - [IP] http://51.250.87.225:3000/
-- [Frontend]  https://...
-- [Backend]  https://...
+- [Frontend]  https://domainname.students.nomoredomains.xyz
+- [Backend]  https://domainname.students.nomoredomains.xyz/api (API)
+
 ## Директории
 
 `/routes` — папка с файлами роутера  
