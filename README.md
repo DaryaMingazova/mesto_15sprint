@@ -64,7 +64,7 @@
 - [Макет  9 спринт](https://www.figma.com/file/PSdQFRHoxXJFs2FH8IXViF/JavaScript.-Sprint-9?node-id=0-1&t=muY6NbhyvcT6ruHM-0)
 - [Макет  12 спринт](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/Sprint-14-RU?node-id=0%3A1)
 - [Сайт](https://daryamingazova.github.io/mesto/index.html)
-- [Ссылка на репозиторий](https://github.com/DaryaMingazova/express-mesto-gha.git)
+- [Ссылка на репозиторий](https://github.com/DaryaMingazova/mesto_15sprint.git)
 - [IP] http://51.250.87.225:3000/
 - [Frontend]  https://...
 - [Backend]  https://...
