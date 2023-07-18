@@ -43,14 +43,9 @@ const getMe = (req, res, next) => {
       if (!user) {
         throw new NotFoundError('Пользователь не найден');
       }
-
       return res.send({ data: user });
     })
     .catch((err) => {
-      if (err.name === 'CastError') {
-        return next(new ValidationError('Некорректный id пользователя'));
-      }
-
       return next(err);
     });
 };

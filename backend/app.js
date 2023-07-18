@@ -3,7 +3,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
-const bodyParser = require('body-parser');
 const { errors } = require('celebrate');
 const { login, createUser } = require('./controllers/users');
 const { validateLogin, validateCreateUser } = require('./middlewares/validation');
@@ -29,8 +28,8 @@ mongoose.connect(DATABASE_URL);
 
 app.use(helmet());
 app.use(requestLogger);
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(limiter);
 app.use(cors);
 
@@ -50,7 +49,7 @@ app.use('/cards', require('./routes/cards'));
 app.use('*', (req, res, next) => {
   next(new NotFoundError('Ресурс не найден'));
 });
-
+// пишем в лог ошибки
 app.use(errorLogger);
 
 app.use(errors());
