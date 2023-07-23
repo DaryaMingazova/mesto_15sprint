@@ -66,8 +66,8 @@
 - [Сайт](https://daryamingazova.github.io/mesto/index.html)
 - [Ссылка на репозиторий](https://github.com/DaryaMingazova/mesto_15sprint.git)
 - [IP] http://51.250.86.19
-- [Frontend]  https://domainname.students.nomoredomains.xyz
-- [Backend]  https://api.domainname.students.nomoredomains.xyz (API)
+- [Frontend]  http://domainname.students.nomoredomains.xyz
+- [Backend]  http://api.domainname.students.nomoredomains.xyz (API)
 
 ## Директории
 
