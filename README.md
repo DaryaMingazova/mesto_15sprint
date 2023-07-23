@@ -65,7 +65,7 @@
 - [Макет  12 спринт](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/Sprint-14-RU?node-id=0%3A1)
 - [Сайт](https://daryamingazova.github.io/mesto/index.html)
 - [Ссылка на репозиторий](https://github.com/DaryaMingazova/mesto_15sprint.git)
-- [IP] http://51.250.87.225:3000/
+- [IP] http://51.250.86.19
 - [Frontend]  https://domainname.students.nomoredomains.xyz
 - [Backend]  https://api.domainname.students.nomoredomains.xyz (API)
 
